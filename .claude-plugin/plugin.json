@@ -1,0 +1,31 @@
+{
+  "name": "gated-dev",
+  "displayName": "Gated Dev Agents",
+  "version": "1.0.0",
+  "description": "Implement → spec review → code-quality review → QA subagents with hard evidence gates: scoped tests, lint, real type-check (Nx/Vite-aware), boot, dead-code removal, no ticket ids in code, readable and fully typed diffs.",
+  "author": {
+    "name": "Reynier Rivero",
+    "url": "https://github.com/raalarcon9705"
+  },
+  "homepage": "https://github.com/raalarcon9705/gated-dev-agents",
+  "repository": "https://github.com/raalarcon9705/gated-dev-agents",
+  "license": "MIT",
+  "keywords": [
+    "subagents",
+    "agents",
+    "skills",
+    "code-review",
+    "code-quality",
+    "qa",
+    "verification",
+    "implementation",
+    "tdd",
+    "type-safety",
+    "dead-code",
+    "e2e",
+    "playwright",
+    "nx",
+    "subagent-driven-development",
+    "superpowers"
+  ]
+}

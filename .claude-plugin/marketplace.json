@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gated-dev",
+  "description": "Evidence-gated implementation, review and QA subagents for Claude Code.",
+  "owner": {
+    "name": "Reynier Rivero",
+    "url": "https://github.com/raalarcon9705"
+  },
+  "plugins": [
+    {
+      "name": "gated-dev",
+      "description": "Implementer, spec reviewer, code-quality reviewer, blind pre-mortem, QA verifier and e2e runner subagents, plus the gate skills they follow.",
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/raalarcon9705/gated-dev-agents",
+      "tags": ["subagents", "code-review", "qa", "verification", "code-quality", "type-safety", "e2e"]
+    }
+  ]
+}
